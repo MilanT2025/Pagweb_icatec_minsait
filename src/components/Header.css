@@ -1,0 +1,95 @@
+.header-bar {
+  background-color: #80cce3 !important; /* Azul oscuro */
+  min-height: 120px;
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ffcc05; /* Color de texto AMARILLO */
+}
+
+.nav-link {
+  color: #ffcc05 !important; /* Color de texto AMARILLO */
+  font-weight: bold;
+  margin-left: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #0d1c42 !important; /* Azul claro */
+  transform: scale(1.05);
+  text-shadow: 0 0 5px rgba(56, 117, 189, 0.5);
+}
+
+/* .icatec-brand {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* O la fuente que prefieras */
+/* font-size: 1.8rem; /* más grande */
+/* font-weight: 700;
+  letter-spacing: 1px; */
+/* } */
+
+.icatec-brand {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  animation: fadeInSlide 1s ease forwards;
+  opacity: 0;
+  color: #ffcc05; /* Amarillo */
+  text-decoration: none;
+}
+
+.nav-link-animate {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link-animate:hover {
+  color: #3875BD;
+  transform: scale(1.05);
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.6);
+}
+
+@keyframes fadeInSlide {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.card-body h5 {
+  transition: transform 0.3s ease;
+}
+
+.custom-card:hover .card-body h5 {
+  transform: translateY(-4px);
+}
+
+.login-button {
+  background-color: #0d1c42; /* Rojo */
+  color: white !important;
+  padding: 6px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  margin-left: 1.5rem;
+}
+
+.login-button:hover {
+  background-color: #0d1c42;
+  color: #fff !important;
+  transform: scale(1.05);
+}
+
