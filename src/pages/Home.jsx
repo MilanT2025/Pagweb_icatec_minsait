@@ -21,7 +21,8 @@ const Home = () => {
           electrónica. Su objetivo principal es optimizar la atención en salud,
           facilitando el acceso a la información clínica de los pacientes por
           parte de los profesionales de la salud y mejorando la toma de
-          decisiones clínicas. <a href="/HistorySihce" className="link-vermas">Ver más</a>
+          decisiones clínicas. 
+          <Link href="/HistorySihce" className="link-vermas">Ver más</Link>
         </p>
         <div className="row justify-content-center gy-4 mt-2">
           <div className="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
