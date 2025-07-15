@@ -1,0 +1,4 @@
+---
+deployment:
+  tasks:
+    - echo "Despliegue realizado con éxito"
