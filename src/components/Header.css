@@ -1,10 +1,12 @@
 .header-bar {
-  background-color: #80cce3 !important; /* Azul oscuro */
+  background-color: #a1dbec !important; /* Azul claro */
   min-height: 120px;
   display: flex;
   align-items: center;
+  justify-content: center; /* Centrado general */
   padding: 1rem 2rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap; /* Para que los logos no se desborden */
 }
 
 .navbar-brand {
@@ -54,7 +56,7 @@
 }
 
 .nav-link-animate:hover {
-  color: #3875BD;
+  color: #3875bd;
   transform: scale(1.05);
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.6);
 }
@@ -92,4 +94,3 @@
   color: #fff !important;
   transform: scale(1.05);
 }
-

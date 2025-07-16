@@ -1,4 +1,4 @@
 ---
 deployment:
   tasks:
-    - echo "Despliegue realizado con éxito"
+    - echo "✔️ Deploy básico activado correctamente"

@@ -15,7 +15,7 @@ const Home = () => {
         <h2 className="title-sihce">
           SISTEMA DE INFORMACIÓN DE HISTORIA CLINICA ELECTRONICA. (SIHCE)
         </h2>
-        <div className="descripcion-sihce">
+        <div className="descripcion-sihce mx-auto px-3">
           Es un sistema informático desarrollado por el Ministerio de Salud del
           Perú para gestionar la información clínica de los pacientes de manera
           electrónica. Su objetivo principal es optimizar la atención en salud,

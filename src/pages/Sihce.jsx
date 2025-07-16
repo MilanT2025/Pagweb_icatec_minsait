@@ -1,8 +1,16 @@
 const SIHCEPage = () => {
   return (
     <div className="container py-5 text-center">
-      <h2>SIHCE - Avance de Implementación</h2>
-      <p>Aquí podrás ver el seguimiento detallado del SIHCE.</p>
+      <div className="ratio ratio-16x9">
+        <iframe
+          title="Power BI SIHCE"
+          width="100%"
+          height="600"
+          src="https://app.powerbi.com/view?r=eyJrIjoiZTNmMWNjYWQtMTEyNy00NzYzLTgyYWMtYjI4ZmEyYzZlZTRjIiwidCI6IjEzODQxZDVmLTk2OGQtNDYyNC1hN2RhLWQ2OGE2MDA2YTg0YSIsImMiOjR9"
+          frameBorder="0"
+          allowFullScreen={true}
+        ></iframe>
+      </div>
     </div>
   );
 };

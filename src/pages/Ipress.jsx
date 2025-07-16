@@ -1,7 +1,6 @@
 const Ipress = () => {
   return (
     <div className="container mt-4">
-      <h3 className="text-center mb-4">Establecimientos de Primer Nivel (I-1 / I-2 / I-3 / I-4)</h3>
       <div className="ratio ratio-16x9">
         <iframe
           title="Power BI SIHCE"
