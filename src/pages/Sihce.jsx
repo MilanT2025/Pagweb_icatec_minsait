@@ -6,7 +6,7 @@ const SIHCEPage = () => {
           title="Power BI SIHCE"
           width="100%"
           height="600"
-          src="https://app.powerbi.com/view?r=eyJrIjoiZTNmMWNjYWQtMTEyNy00NzYzLTgyYWMtYjI4ZmEyYzZlZTRjIiwidCI6IjEzODQxZDVmLTk2OGQtNDYyNC1hN2RhLWQ2OGE2MDA2YTg0YSIsImMiOjR9"
+          src="https://app.powerbi.com/view?r=eyJrIjoiZGZjNGFkYzgtOWFkOS00YmNiLTk1NGMtODhmODZjNDRkN2VhIiwidCI6IjEzODQxZDVmLTk2OGQtNDYyNC1hN2RhLWQ2OGE2MDA2YTg0YSIsImMiOjR9"
           frameBorder="0"
           allowFullScreen={true}
         ></iframe>
