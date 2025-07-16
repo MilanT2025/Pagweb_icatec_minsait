@@ -21,12 +21,16 @@ const Imagen = ({ children }) => {
 
   const estiloFondo = {
     backgroundImage: `linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url(${fondoActual})`,
-    backgroundSize: "cover",
-    backgroundPosition: "center",
+    backgroundSize: "cover", // asegura que cubra todo
+    backgroundPosition: "center center",
     backgroundRepeat: "no-repeat",
+    width: "100%",
     minHeight: "100vh",
     paddingTop: "2rem",
     paddingBottom: "2rem",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
     transition: "background-image 1s ease-in-out",
   };
 

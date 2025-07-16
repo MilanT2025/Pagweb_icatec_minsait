@@ -4,6 +4,7 @@ import logoIcatec from "../assets/logo_icatec_2.svg";
 import logoMinsa from "../assets/logoMinsa2.svg";
 import logoDiresa from "../assets/logo_DIRESA.png";
 import logoOite from "../assets/logo_OITE.png";
+import logoGore from "../assets/Logo_GORE.png";
 
 const Header = () => {
   return (
@@ -12,6 +13,7 @@ const Header = () => {
         {/* Logos izquierda: MINSA, DIRESA, OITE */}
         <div className="d-flex align-items-center gap-3">
           <img src={logoMinsa} alt="Logo MINSA" className="logo-giratorio" style={{ height: "50px" }} />
+          <img src={logoGore} alt="Logo GORE" className="logo-giratorio" style={{ height: "100px" }} />
           <img src={logoDiresa} alt="Logo DIRESA" className="logo-giratorio" style={{ height: "100px" }} />
           <img src={logoOite} alt="Logo OITE" className="logo-giratorio" style={{ height: "100px" }} />
         </div>

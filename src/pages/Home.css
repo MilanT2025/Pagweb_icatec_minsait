@@ -129,6 +129,6 @@
 }
 
 .logo-giratorio {
-  animation: rotarLogo 10s linear 1;
+  animation: rotarLogo 5s linear 1;
   transform-origin: center;
 }
