@@ -1,5 +1,7 @@
 import iconoSihce from '../assets/LogoSihce.png';
-import iconoWatsApp from '../assets/whatsapp.png';
+import iconoYoutube from '../assets/Logoyoutube.png';
+import iconoFacebook from '../assets/Logofacebook.png';
+import iconoTiktok from '../assets/Logotiktok.png';
 
 const Footer = () => {
   return (
@@ -19,6 +21,45 @@ const Footer = () => {
               className="text-white text-decoration-none small"
             >
               SIHCE
+            </a>
+          </div>
+          <div className="d-flex align-items-center mt-2">  
+            <img
+              src={iconoYoutube}
+              alt="Ícono Youtube"
+              style={{ width: "30px", height: "30px", marginRight: "8px" }}
+            />
+            <a
+              href="https://www.youtube.com/@icatecperu"
+              className="text-white text-decoration-none small"
+            >
+              @Icatec Youtube
+            </a>
+          </div>
+          <div className="d-flex align-items-center mt-2">
+             <img
+              src={iconoFacebook}
+              alt="Ícono Facebook"
+              style={{ width: "30px", height: "30px", marginRight: "8px" }}
+            />
+            <a
+              href="https://www.facebook.com/icatecperu"
+              className="text-white text-decoration-none small"
+            >
+              @Icatec Facebook
+            </a>
+          </div>
+          <div className="d-flex align-items-center mt-2">
+             <img
+              src={iconoTiktok}
+              alt="Ícono Tiktok"
+              style={{ width: "30px", height: "30px", marginRight: "8px" }}
+            />
+            <a
+              href="https://www.tiktok.com/@icatecperu"
+              className="text-white text-decoration-none small"
+            >
+              @Icatec Tiktok
             </a>
           </div>
         </div>

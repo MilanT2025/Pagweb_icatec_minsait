@@ -119,6 +119,12 @@
   }
 }
 
+/* Estilos para el carrusel */
+.carrusel-wrapper {
+    margin-top: 25px !important; /* puedes ajustar a 30px o lo que veas mejor */
+
+}
+
 /* @keyframes rotarLogo {
   from {
     transform: rotate(0deg);

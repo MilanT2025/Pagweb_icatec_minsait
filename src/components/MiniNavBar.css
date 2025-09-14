@@ -1,0 +1,52 @@
+.mini-navbar {
+  position: absolute;
+  top: 160px;
+  left: 20px;
+  z-index: 2000;
+}
+
+.hamburger {
+  font-size: 22px;
+  background: #f1f1f1;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.menu-box {
+  margin-top: 8px;
+  background: #e6f0ff; /* fondo azul clarito como en tu Figma */
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+.menu-box ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-box li {
+  margin: 8px 0;
+}
+
+.menu-box a {
+  text-decoration: none;
+  color: #333;
+  font-size: 15px;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+.menu-box a:hover {
+  color: #0056b3;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-5px); }
+  to { opacity: 1; transform: translateY(0); }
+}

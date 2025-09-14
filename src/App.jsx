@@ -7,7 +7,10 @@ import Helpdesk from './pages/Helpdesk';
 import Ipress from './pages/Ipress';
 import Indicadores from './pages/Indicadores';
 import HistorySihce from './pages/HistorySihce';
+import HerramientasDigital from  './pages/HerramientasDigital';
+import Resoluciones from './pages/Resoluciones';
 import './App.css';
+
 
 function App() {
   return (
@@ -22,6 +25,8 @@ function App() {
             <Route path="/Ipress" element={<Ipress />} />
             <Route path="/Indicadores" element={<Indicadores />} />
             <Route path="/HistorySihce" element={<HistorySihce />} />
+            <Route path="/HerramientasDigitales" element={<HerramientasDigital />} />
+            <Route path="/Resoluciones" element={<Resoluciones />} />
           </Routes>
         </div>
         <Footer />
